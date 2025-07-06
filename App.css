@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Cursive', sans-serif;
+  background: #ffeef2;
+  color: #70002c;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header, .footer {
+  text-align: center;
+  background: #ffd6dc;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff0f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 0, 128, 0.2);
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+button {
+  padding: 10px 15px;
+  background: #ff85a2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background: #e2547d;
+}
