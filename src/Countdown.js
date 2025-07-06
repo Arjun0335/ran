@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export function Countdown() {
-  const target = new Date('2025-02-14'); // Example: Valentine's Day
+  const target = new Date('2026-02-04'); // Example: Valentine's Day
   const [timeLeft, setTimeLeft] = useState({});
 
   useEffect(() => {
