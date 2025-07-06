@@ -5,7 +5,7 @@ export function Music() {
   ];
   return (
     <div className="card">
-      <h2>🎵 Our Playlist</h2>
+      <h2>🎵 Playlist for you</h2>
       <ul>
         {tracks.map((track, idx) => (
           <li key={idx}>
