@@ -19,7 +19,7 @@ function App() {
       <Music />
       <Quotes />
       <footer className="footer">
-        Made with ❤️ by [Your Name]
+        Made with ❤️ by Arjun
       </footer>
     </div>
   );
