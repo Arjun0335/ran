@@ -6,7 +6,7 @@ export function Gallery() {
   ];
   return (
     <div className="card">
-      <h2>📸 Our Memories</h2>
+      <h2>📸 Your pictures</h2>
       <div className="gallery">
         {images.map((img, idx) => (
           <img key={idx} src={img} alt={`Memory ${idx + 1}`} />
